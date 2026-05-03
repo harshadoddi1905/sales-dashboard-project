@@ -1,10 +1,11 @@
 # Sales & Revenue Performance Dashboard
 
 ## Project Overview
-This project analyzes sales data and builds an interactive dashboard to visualize business performance and insights.
+This project focuses on analyzing sales data to uncover business insights and build an interactive dashboard for decision-making.
+The solution includes data cleaning using Python and data visualization using Power BI, providing a complete end-to-end analytics workflow.
 
 ## Tools Used
-- Python (Pandas)
+- Python (Pandas,NumPy)
 - Power BI
 - GitHub
 
@@ -31,3 +32,6 @@ This project analyzes sales data and builds an interactive dashboard to visualiz
 1. Run Python script:
 ```bash
 python scripts/clean_data.py
+2: Open Dashboard
+Open the .pbix file in Power BI
+Explore interactive visuals and filters
