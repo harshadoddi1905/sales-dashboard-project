@@ -32,6 +32,7 @@ The solution includes data cleaning using Python and data visualization using Po
 1. Run Python script:
 ```bash
 python scripts/clean_data.py
+```
 2: Open Dashboard
 Open the .pbix file in Power BI
 Explore interactive visuals and filters
