@@ -38,7 +38,7 @@ The solution includes data cleaning using Python and data visualization using Po
 - `data/` → raw dataset
 - `scripts/` → Python code
 - `output/` → cleaned data
-- `dashboard/` → Power BI dashboard
+- `dashboard/` → visualizations and dashboard files
 
 ## How to Run
 1. Run Python script:
@@ -46,5 +46,6 @@ The solution includes data cleaning using Python and data visualization using Po
 python scripts/clean_data.py
 ```
 2: Open Dashboard
-Open the .pbix file in Power BI
-Explore interactive visuals and filters
+
+- Open the .pbix file in Power BI
+- Explore interactive visuals and filters
