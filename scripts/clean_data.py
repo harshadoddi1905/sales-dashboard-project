@@ -71,3 +71,34 @@ print("="*50)
 # SAVE CLEANED DATA
 
 df.to_csv("output/cleaned_sales.csv", index=False)
+
+import matplotlib.pyplot as plt
+
+# Create dashboard folder automatically
+import os
+os.makedirs("dashboard", exist_ok=True)
+
+# 1. Monthly Sales Trend
+monthly_sales.plot(figsize=(10,5))
+plt.title("Monthly Sales Trend")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.grid(True)
+plt.savefig("dashboard/monthly_sales.png")
+plt.show()
+
+# 2. Sales by Region
+region_sales.plot(kind='bar', figsize=(8,5))
+plt.title("Sales by Region")
+plt.xlabel("Region")
+plt.ylabel("Sales")
+plt.savefig("dashboard/region_sales.png")
+plt.show()
+
+# 3. Top Products
+top_products.plot(kind='bar', figsize=(8,5))
+plt.title("Top 5 Products")
+plt.xlabel("Products")
+plt.ylabel("Sales")
+plt.savefig("dashboard/top_products.png")
+plt.show()
