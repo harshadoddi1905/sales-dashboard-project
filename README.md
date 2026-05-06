@@ -13,7 +13,7 @@ The solution includes data cleaning using Python and data visualization using Po
 - Data cleaning and preprocessing
 - KPI calculations (Revenue, Orders, AOV)
 - Interactive dashboard with filters
-- Sales trend forecasting
+- Monthly sales trend analysis
 - Business insights generation
 
 ## Dashboard Insights
@@ -21,6 +21,18 @@ The solution includes data cleaning using Python and data visualization using Po
 - Technology category dominates sales
 - Sales peak during Q4 months
 - Top products contribute major revenue share
+
+
+## Dashboard Visualizations
+
+### Monthly Sales Trend
+![Monthly Sales](dashboard/monthly_sales.png)
+
+### Sales by Region
+![Region Sales](dashboard/region_sales.png)
+
+### Top 5 Products
+![Top Products](dashboard/top_products.png)
 
 ## Project Structure
 - `data/` → raw dataset
